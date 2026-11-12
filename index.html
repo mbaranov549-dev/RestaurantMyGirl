@@ -34,13 +34,13 @@ img{display:block;max-width:100%}
 .nav-links a{transition:color .25s}
 .nav-links a:hover{color:#f0b18e}
 .nav-note{color:#f0b18e;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase}
-.hero{min-height:690px;height:82vh;position:relative;display:flex;align-items:center;overflow:hidden;background:linear-gradient(125deg,#352d20 0%,#6b5a49 55%,#b9aea1 100%)}
+.hero{min-height:690px;height:82vh;position:relative;display:flex;align-items:center;overflow:hidden;}
 .hero::before{content:"";position:absolute;inset:0;background:
     linear-gradient(
         rgba(0, 0, 0, 0.7),
         rgba(0, 0, 0, 0.7)
     ),
-    url("images/restic.jpg") center/cover no-repeat;}
+    url("./restic.jpg") center/cover no-repeat;}
 .hero-content{position:relative;z-index:1;padding-top:70px;max-width:760px}
 .hero-kicker{color:#f0b18e;text-transform:uppercase;letter-spacing:.3em;font-size:.72rem}
 .hero h1{font:500 clamp(5rem,12vw,9.7rem)/.9 var(--serif);letter-spacing:-.065em;margin:28px 0;color:var(--paper)}
@@ -202,7 +202,7 @@ const recipes = [
   {
     id:"carbonara", number:"01", name:"Карбонара",
     description:"Нивкуснейшая карбонара (блюдо от шефа).",
-    image:"https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&w=1200&q=85",
+    image:"karbonara.jpg",
     ingredients:[["Спагетти"],["Сыр"],["Яичные желтки"],["Бекон"],["Сливки"],["Чеснок"],["Соль, перец"]]
   },
   {
@@ -232,7 +232,7 @@ const recipes = [
   {
     id:"ramen", number:"06", name:"Рамен",
     description:"Охаешечки даттебаешечки.",
-    image:"https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=1200&q=85",
+    image:"ramen.jpg",
     ingredients:[["Лапша"],["Куриный бульон"],["Курица"],["Соевый соус"],["Чеснок"],["Яйца"],["Шампиньоны"],["Зелёный лук"]]
   }
 ];
